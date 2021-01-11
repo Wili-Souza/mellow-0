@@ -1,0 +1,572 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+h1{
+    font-family: 'DM Serif Display';
+    font-size: 2rem;
+    color: rgb(253, 255, 254);
+    font-weight: 400;
+    margin-bottom: -0.1rem;
+}
+
+.text {
+    font-size: 0.8rem;
+}
+
+/* Navbar  */
+
+.nav{
+    background: rgb(43, 207, 162);
+    display: inline-block;
+    width: 100%;
+    color: rgb(218, 255, 243);
+    height: 5rem;
+}
+
+.logo{
+    width: 150px;
+    position: relative;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+/* Opções do menu */
+
+.nav-control{
+    width: 25rem;
+    background-color: rgb(43, 207, 162);
+    margin-top: 1.3%;
+    display: inline-block;
+    position: absolute;
+    right: 6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.nav ul li{
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+.nav ul a{
+    color:rgb(218, 255, 243);
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color:rgb(27, 129, 78)
+}
+
+/* botão do Menu */
+
+    /*Criando o label */
+label[for=menu]{
+    position: absolute;
+    top: 3%;
+    right: 6rem;
+    color:rgb(218, 255, 243);
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+}
+
+label[for=menu], #menu{
+    display: none;
+}
+
+
+    /* Imagem do usuário */
+.userPicBorder{
+    position: relative;
+    float: right;
+    top: 1rem;
+    right: 1.5rem;
+
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(218, 255, 243);
+}
+
+.userPic{
+    border-radius: 100%;
+    width: 49px;
+    height: 49px;
+    overflow: hidden;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.picture{
+    width: 100%;
+}
+
+
+/* Heading -------------------- */
+
+.heading{
+    width: 100%;
+    background: rgb(43, 207, 162);
+    margin-bottom: 0;
+}
+
+    /* Vertical images */
+
+.vertical-images{
+    position: relative;
+    height: 29.5rem;
+    width: 13rem;
+    float: left;
+    margin: 8% 10%;
+    margin-bottom: 0;
+}
+
+.vertical-images img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.img-food-1{
+    width: 90px;
+    top: 0;
+}
+
+.img-food-2{
+    width: 130px;
+    top: 4.5rem;
+}
+
+.img-food-3{
+    width: 140px;
+    top: 10rem;
+    padding-left: 1rem;
+}
+
+.img-food-4{
+    width: 130px;
+    top: 16rem;
+    padding-left: 1rem;
+}
+
+.img-food-5{
+    width: 180px;
+    right: 0;
+    bottom: 0;
+    padding-left: 2.6rem;
+}
+
+
+    /* Content */
+
+.heading-content{
+    color: rgb(218, 255, 243);
+    padding: 6% 17%;
+    padding-right: 0;
+}
+
+.heading-text{
+    width: 70%;
+}
+
+    /* Cards  */
+
+.planCard{
+    display: inline-block;
+    position: relative;
+
+    background-color: #fff;
+    box-shadow: 0 0 0.5em rgb(29, 179, 139);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem 2rem 1rem 0;
+    width: 13%;
+    text-align: left;
+    padding: 1rem 1.5rem;
+}
+
+.planCard h2{
+    color: rgb(0, 163, 94);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: -0.6rem;
+}
+
+.planCard p{
+    color: rgb(248, 96, 129);
+    font-size: 0.55rem;
+    font-weight: 800;
+}
+
+.planCard ul{
+    margin-top: 8rem;
+    padding: 0;
+}
+
+.planCard ul li{
+    list-style: none;
+    color: rgb(107, 107, 107);
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin: 5px auto;
+}
+
+.cardImgContainer{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    
+}
+
+.card-02{
+    width: 80px;
+}
+
+.card-03{
+    top: 4.5rem;
+}
+
+.cardImg{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.benefit-dash{
+    float: right;
+    font-weight: bold;
+}
+
+.btn-try{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translateX(-50%);
+
+    background-color: rgb(0, 234, 135);
+    color: rgb(44, 56, 52);
+    border-style: none;
+    border-radius: 5px;
+    width: 45%;
+    height: 2rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+
+.btn-try:hover{
+    background-color: rgb(27, 129, 78);
+    color:rgb(253, 255, 254);
+}
+
+.btn-try:active{
+    background-color: rgb(0, 163, 94);
+}
+
+.btn-try:focus{
+    border-style: none;
+    outline-style: none;
+    outline: none;
+}
+
+/* Recipes section */
+.recipes{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5% 0 11% 0; 
+}
+
+.recipes-text{
+    padding: 0 15% 1.5%;
+}
+
+.recipes h1{
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+} 
+
+.recipes p{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    color: rgb(63, 63, 63);
+} 
+
+.carousel{
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide-content{
+    height: 22.5rem;
+    width: 100%;
+    margin: 1% 0 0 1.5%;
+    border-radius: 15px;
+    box-shadow: 0 0 0.5em rgb(226, 226, 226);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-img{
+    width: 50%;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(59,59,59);
+    color: #fff;
+    padding: 4rem 10%;
+    position: relative;
+}
+
+.footer-links{
+    width: 70%;
+}
+
+.links{
+    padding-left: 0;
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-logo{
+    position: absolute;
+    right: 10%;
+    top: 5rem;
+    width: 120px;
+}
+
+.footer-text{
+    text-align: left;
+    font-size: 1.95rem;
+    font-weight: 600;
+}
+
+.footer-box{
+    position: static;
+    margin: 6.5% auto 0 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.footer-text span{
+    display: block;
+}
+
+.footer-text-green{
+    color: rgb(0, 234, 135);
+}
+
+.sub-input, .sub-button{
+    border-style: none;
+    font-family: 'Open Sans';
+}
+
+.sub-input{
+    width: 13.2rem;
+    height: 1.5rem;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.55rem;
+    padding: 0.2rem 0 0.2rem 1rem;
+    margin: 5% 4px 0 0;
+    font-weight: 600;
+}
+
+.sub-input:focus{
+    border-style: none;
+    outline-style: none;
+    outline: none;
+}
+
+.sub-button{
+    background-color: rgb(0, 234, 135);
+    color:rgb(13, 65, 51);
+    border-radius: 0 5px 5px 0;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin: 5% 0 0 0;
+    padding: 0.51rem 1.4rem 1.4rem;
+}
+
+.sub-button:hover{
+    background-color: rgb(27, 129, 78);
+    color:rgb(253, 255, 254);
+}
+
+.sub-button:focus{
+    border-style: none;
+    outline-style: none;
+    outline: none;
+}
+
+.sub-button:active{
+
+    background-color: rgb(0, 163, 94);
+}
+
+.icons{
+    margin: 4% 0 1% 0;
+}
+
+.midia-icon{
+    margin-right: 1.6rem;
+}
+
+.pinterest-circle{
+    display: inline-block;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -2px;
+}
+
+.pinterest-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.65rem;
+    
+}
+
+.footer-small-text{
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+
+/* Responsividade */
+
+@media(max-width:1020px) {
+    .vertical-images{
+        margin: 8% 5%;
+    } 
+
+    .headingContent{
+        padding-left: 0;
+    }
+    
+    .planCard{
+        width: 20%;
+        margin: 3% 1%;
+    }
+}
+
+@media(max-width:767px) {
+    .vertical-images{
+        margin: 8% 0;
+    } 
+
+    .cards{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .cards > .planCard{
+        display: block;
+        margin-bottom: 2rem;
+        width: 65%;
+    }
+
+    .nav-control{
+        margin: 2.5rem -6rem 10rem auto;
+        width: 40%;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        display: block;
+        height: 0;
+        opacity: 0;
+        transition: all .4s;
+    }
+
+    label[for=menu]{
+        display: block;
+    }
+
+    #menu:checked ~ .nav-control{
+        height: 10rem;
+        opacity: 1;
+    }
+
+    .nav-control ul li {
+        display: block;
+        margin: 1rem;
+        opacity: 0;
+        transition: all .4s;
+    }
+
+    #menu:checked ~ .nav-control ul li {
+        opacity: 1;
+    }
+
+    .nav-control ul li a{
+        color:rgb(13, 65, 51);
+    }
+
+    .links li a{
+        font-size: 0.8rem;
+    }
+
+    .footer-logo{
+        width: 100px;
+    }
+
+    .footer-text{
+        margin: 15% auto 10% auto;
+        font-size: 1.8rem;
+    }
+
+    .icons{
+        margin-top: 10%;
+    }
+
+
+    /*.planCard{
+        width: 60%;
+        margin: 3% 1%;
+    }*/
+}
