@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.b1c58d1c.chunk.js",
-    "main.js.map": "/static/js/main.b1c58d1c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
-    "static/js/2.18d66838.chunk.js": "/static/js/2.18d66838.chunk.js",
-    "static/js/2.18d66838.chunk.js.map": "/static/js/2.18d66838.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.18d66838.chunk.js.LICENSE.txt": "/static/js/2.18d66838.chunk.js.LICENSE.txt",
-    "static/media/left-arrow.caad36af.svg": "/static/media/left-arrow.caad36af.svg",
-    "static/media/right-arrow.8b850ab7.svg": "/static/media/right-arrow.8b850ab7.svg"
+    "main.js": "/mellow-0/static/js/main.b1c58d1c.chunk.js",
+    "main.js.map": "/mellow-0/static/js/main.b1c58d1c.chunk.js.map",
+    "runtime-main.js": "/mellow-0/static/js/runtime-main.64e1e1f1.js",
+    "runtime-main.js.map": "/mellow-0/static/js/runtime-main.64e1e1f1.js.map",
+    "static/js/2.18d66838.chunk.js": "/mellow-0/static/js/2.18d66838.chunk.js",
+    "static/js/2.18d66838.chunk.js.map": "/mellow-0/static/js/2.18d66838.chunk.js.map",
+    "index.html": "/mellow-0/index.html",
+    "static/js/2.18d66838.chunk.js.LICENSE.txt": "/mellow-0/static/js/2.18d66838.chunk.js.LICENSE.txt",
+    "static/media/left-arrow.caad36af.svg": "/mellow-0/static/media/left-arrow.caad36af.svg",
+    "static/media/right-arrow.8b850ab7.svg": "/mellow-0/static/media/right-arrow.8b850ab7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c012fedc.js",
+    "static/js/runtime-main.64e1e1f1.js",
     "static/js/2.18d66838.chunk.js",
     "static/js/main.b1c58d1c.chunk.js"
   ]
