@@ -362,6 +362,10 @@ label[for=menu], #menu{
     font-weight: 600;
 }
 
+.links li :hover{
+    color:
+}
+
 .links li a{
     text-decoration: none;
     color: #fff;
@@ -451,6 +455,11 @@ label[for=menu], #menu{
     margin-right: 1.6rem;
 }
 
+.midia-icon :hover, .pinterest-icon:hover, .links li :hover{
+    color: rgb(0, 234, 135);
+    cursor: pointer;
+}
+
 .pinterest-circle{
     display: inline-block;
     border-style: solid;
@@ -462,6 +471,12 @@ label[for=menu], #menu{
     position: relative;
     overflow: hidden;
     margin-bottom: -2px;
+    cursor: pointer;
+}
+
+.border-green{
+    border-color: rgb(0, 234, 135);
+    color: rgb(0, 234, 135);
 }
 
 .pinterest-icon{
@@ -499,6 +514,28 @@ label[for=menu], #menu{
     .vertical-images{
         margin: 8% 0;
     } 
+
+    /*.heading h1{
+        font-size: 150%;
+        padding-right: 0.5rem;
+    }
+
+    .heading .text {
+        padding-right: 0;
+        margin-right: 0;
+        font-size: 64%;
+    }*/
+
+    .heading-text-box{
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(43, 207, 162, 0.8);
+        padding-top: 20%;
+        padding-left: 20%;
+    }
+
 
     .cards{
         display: inline-block;
@@ -558,6 +595,10 @@ label[for=menu], #menu{
     .footer-text{
         margin: 15% auto 10% auto;
         font-size: 1.8rem;
+    }
+
+    .sub-input, .sub-button{
+        border-radius: 5px 5px 5px 5px;
     }
 
     .icons{
