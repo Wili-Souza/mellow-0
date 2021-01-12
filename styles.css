@@ -290,7 +290,7 @@ label[for=menu], #menu{
 .recipes{
     background-color: rgb(255, 255, 255);
     text-align: center;
-    margin: 5% 0 11% 0; 
+    margin: 5% 0 9rem 0; 
 }
 
 .recipes-text{
@@ -360,10 +360,6 @@ label[for=menu], #menu{
     margin-right: 5%;
     font-size: 0.8rem;
     font-weight: 600;
-}
-
-.links li :hover{
-    color:
 }
 
 .links li a{
@@ -493,6 +489,66 @@ label[for=menu], #menu{
     font-weight: 400;
 }
 
+/*  Go Green (gg) Section  */
+
+.go-green{
+    background-color: rgb(249, 249, 249);
+    padding: 6rem 0 9rem; 
+}
+
+.gg-image-container{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 45%;
+}
+
+.gg-image-container img{
+    position: absolute;
+    width: 21.25rem;
+    top: -12rem;
+    left: 3rem;
+}
+
+.gg-content{
+    position: relative;
+    display: inline-block;
+    width: 55%; 
+    z-index: 1;
+    padding-top: 6%;
+}
+
+.gg-slide-content{
+    width: 35rem;
+    margin: 0 2% 0 0;
+    padding-right: 7rem;
+}
+
+.gg-slide-content h1{
+    color: rgb(59, 59, 59);
+}
+
+.gg-slide-content p{
+    color: rgb(59, 59, 59);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.logos img{
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.logo-2{
+    width: 70px;
+}
+
+.logo-1, .logo-3{
+    width: 90px;
+}
+
+
 /* Responsividade */
 
 @media(max-width:1020px) {
@@ -603,6 +659,24 @@ label[for=menu], #menu{
 
     .icons{
         margin-top: 10%;
+    }
+
+    /* go green */
+
+    .gg-image-container img{
+        width: 16rem;
+        top: -12rem;
+        left: 1rem;
+    }
+
+    .gg-box-control{
+        padding-left: 2rem;
+        background-color: rgba(249, 249, 249, 0.8);
+    }
+
+    .gg-content{
+        display: block;
+        width: 100%;
     }
 
 
