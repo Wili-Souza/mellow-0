@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/mellow-0/static/js/main.85c7b5cf.chunk.js",
-    "main.js.map": "/mellow-0/static/js/main.85c7b5cf.chunk.js.map",
+    "main.js": "/mellow-0/static/js/main.0eb1bf10.chunk.js",
+    "main.js.map": "/mellow-0/static/js/main.0eb1bf10.chunk.js.map",
     "runtime-main.js": "/mellow-0/static/js/runtime-main.64e1e1f1.js",
     "runtime-main.js.map": "/mellow-0/static/js/runtime-main.64e1e1f1.js.map",
-    "static/js/2.2095e54e.chunk.js": "/mellow-0/static/js/2.2095e54e.chunk.js",
-    "static/js/2.2095e54e.chunk.js.map": "/mellow-0/static/js/2.2095e54e.chunk.js.map",
+    "static/js/2.393fab32.chunk.js": "/mellow-0/static/js/2.393fab32.chunk.js",
+    "static/js/2.393fab32.chunk.js.map": "/mellow-0/static/js/2.393fab32.chunk.js.map",
     "index.html": "/mellow-0/index.html",
-    "static/js/2.2095e54e.chunk.js.LICENSE.txt": "/mellow-0/static/js/2.2095e54e.chunk.js.LICENSE.txt",
+    "static/js/2.393fab32.chunk.js.LICENSE.txt": "/mellow-0/static/js/2.393fab32.chunk.js.LICENSE.txt",
     "static/media/left-arrow.caad36af.svg": "/mellow-0/static/media/left-arrow.caad36af.svg",
     "static/media/right-arrow-transl.6e5502ef.svg": "/mellow-0/static/media/right-arrow-transl.6e5502ef.svg",
     "static/media/right-arrow.8b850ab7.svg": "/mellow-0/static/media/right-arrow.8b850ab7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.64e1e1f1.js",
-    "static/js/2.2095e54e.chunk.js",
-    "static/js/main.85c7b5cf.chunk.js"
+    "static/js/2.393fab32.chunk.js",
+    "static/js/main.0eb1bf10.chunk.js"
   ]
 }
